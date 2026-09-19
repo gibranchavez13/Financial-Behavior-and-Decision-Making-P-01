@@ -3,13 +3,20 @@
 **Proyecto 1 — Decision-Making Foundations & Behavioral Finance (ITESO), Prof. Luis Felipe Gómez Estrada.**
 Pista principal: **A (efecto disposición)**; la pista B (exceso de confianza) se ejecuta completa como estimador de control cruzado.
 
+Equipo:
+
+- Gibrán Chávez
+- Germán Estrada
+- Carlos Nieves
+- Jorge Ruiz
+
 | Rol | Responsable de |
 |---|---|
 | **[SIM] Arquitecto de simulación** | proceso generador de datos: precios, agentes, costos, mecanismos inyectados, reproducibilidad y la restricción de no-información |
 | **[ECON] Econometrista conductual** | contabilidad PGR/PLR y sus convenciones, bootstrap por cuenta, regresiones de rotación brutas y netas, errores estándar, diagnóstico de la pendiente bruta |
 | **[REF] Árbitro / editor científico** | pre-análisis, interpretación de cada escenario, límites de los estimadores y conclusiones |
 
-**Fecha:** 10 de septiembre de 2026 · **Semilla maestra:** `20260910` · **Tiempo de ejecución:** ≈ 7.7 min en la última ejecución completa (la cifra exacta de esta ejecución está en la última celda).
+**Fecha:** 10 de septiembre de 2026. 
 
 **Cómo correrlo.** El simulador es `simulador.py`: `python simulador.py` corre los ocho escenarios con sus estimadores y guarda la tabla de resultados en `resultados/tabla_simulador.csv` (≈ 1 min). El informe completo es este cuaderno: se abre en Jupyter desde `C:\ifi\5\Comportamiento\proyecto_1` y se ejecuta con *Restart & Run All*. Reescribe `simulador.py` y los tres módulos que importa (`simlib_precios.py`, `simlib_agentes.py`, `simlib_estimadores.py`), las figuras (`figuras/`) y las tablas (`resultados/`), y exporta `informe.md`. Requiere Python ≥ 3.10 con numpy, pandas, scipy y matplotlib; las versiones usadas se imprimen abajo y en la última celda.
 
